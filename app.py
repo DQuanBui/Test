@@ -18,4 +18,3 @@ for year in range(1, years + 1):
 df = pd.DataFrame(values)
 
 st.dataframe(df)
-st.line_chart(df.set_index("Year"))
